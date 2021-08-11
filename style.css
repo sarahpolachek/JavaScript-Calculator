@@ -3,6 +3,13 @@
     margin-top:15px;
     width:100%;
 }
+
+@media only screen 
+  and (min-device-width: 480px) {
+  .toLeft {
+    margin-left: 20.6%;
+  }
+}
 .btn-primary {
     background-color:rgb(9, 157, 177);
 }
@@ -22,7 +29,7 @@
 
 #display {
     background-color:rgb(135, 220, 228);
-    
+    font-size: 3rem;
     border-radius: 10px;
     border: 2px solid rgb(58, 58, 58);
     color: rgb(58, 58, 58);
@@ -31,6 +38,3 @@
     
 }
 
-#display {
-    font-size: 3rem;
-}
